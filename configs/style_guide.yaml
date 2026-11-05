@@ -1,0 +1,17 @@
+max_words: 12
+max_sentences: 6
+max_items: 5
+hedge: Looks like
+zones: [center, middle, near the rim]
+labels: [staples, protein, vegetables, sauce or soup, fruit, other food]
+banned: [gram, grams, calorie, calories, healthy, unhealthy]
+count_template: "{count} {noun} identified."
+item_template: "{prefix}{label} at {hour} o'clock, {zone}."
+summary_template: "{prefix}{share} {label}."
+share_large: A large share is
+share_small: A small share is
+share_medium: Part of the food is
+large_at: 0.50
+small_below: 0.15
+failure: "I can't identify the plate clearly. Please retake the photo."
+empty: "I can't identify the food confidently. Please retake the photo."
