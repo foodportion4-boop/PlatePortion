@@ -1,0 +1,13 @@
+photo: diner_at_bottom
+plate:
+  min_axis_fraction: 0.22
+  min_food_fraction: 0.08
+  max_tilt_degrees: 45
+geometry:
+  center_boundary: 0.33
+  rim_boundary: 0.72
+  minimum_plate_area_fraction: 0.02
+  max_items: 5
+  ignore_index: 255
+model:
+  checkpoint: checkpoints/foodseg-b0
