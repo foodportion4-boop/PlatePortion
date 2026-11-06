@@ -1,0 +1,10 @@
+{
+  "status": "plate_failure",
+  "reason": "Ellipse clipped, too oblique, or weak rim support",
+  "text": "I can't identify the plate clearly. Please retake the photo.",
+  "items": [],
+  "decisions": [],
+  "inference_seconds": 4.395010366999998,
+  "total_seconds": 8.011666605000016,
+  "audio": null
+}
