@@ -1,0 +1,130 @@
+photo: diner_at_bottom
+model:
+  checkpoint: checkpoints/foodseg-b0
+geometry:
+  minimum_plate_area_fraction: 0.02
+  max_items: 5
+  center_boundary: 0.33
+  rim_boundary: 0.72
+plate:
+  residual_scale: 0.08
+  minimum_fit_quality: 0.2
+  minimum_axis_ratio: 0.65
+confidence:
+  omit_below: 0.25
+  keep_at: 0.6
+  full_size_fraction: 0.08
+  calibrated: false
+groups:
+  staples:
+  - french fries
+  - bread
+  - corn
+  - hamburg
+  - pizza
+  - hanamaki baozi
+  - wonton dumplings
+  - pasta
+  - noodles
+  - rice
+  - pie
+  - potato
+  protein:
+  - red beans
+  - soy
+  - egg
+  - steak
+  - pork
+  - chicken duck
+  - sausage
+  - fried meat
+  - lamb
+  - crab
+  - fish
+  - shellfish
+  - shrimp
+  - tofu
+  vegetables:
+  - eggplant
+  - garlic
+  - cauliflower
+  - tomato
+  - kelp
+  - seaweed
+  - spring onion
+  - rape
+  - ginger
+  - okra
+  - lettuce
+  - pumpkin
+  - cucumber
+  - white radish
+  - carrot
+  - asparagus
+  - bamboo shoots
+  - broccoli
+  - celery stick
+  - cilantro mint
+  - snow peas
+  - cabbage
+  - bean sprouts
+  - onion
+  - pepper
+  - green beans
+  - French beans
+  - king oyster mushroom
+  - shiitake
+  - enoki mushroom
+  - oyster mushroom
+  - white button mushroom
+  - salad
+  sauce or soup:
+  - sauce
+  - soup
+  fruit:
+  - dried cranberries
+  - apple
+  - date
+  - apricot
+  - avocado
+  - banana
+  - strawberry
+  - cherry
+  - blueberry
+  - raspberry
+  - mango
+  - olives
+  - peach
+  - lemon
+  - pear
+  - fig
+  - pineapple
+  - grape
+  - kiwi
+  - melon
+  - orange
+  - watermelon
+  other food:
+  - candy
+  - egg tart
+  - chocolate
+  - biscuit
+  - popcorn
+  - pudding
+  - ice cream
+  - cheese butter
+  - cake
+  - wine
+  - milkshake
+  - coffee
+  - juice
+  - milk
+  - tea
+  - almond
+  - cashew
+  - walnut
+  - peanut
+  - other ingredients
+audio:
+  rate: 165
+  voice: null
