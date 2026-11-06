@@ -1,0 +1,9 @@
+{
+  "images": 300,
+  "calibration_images": 150,
+  "holdout_images": 150,
+  "plate_failures": 241,
+  "no_confident_food": 40,
+  "median_spoken_items": 0.0,
+  "calibration_candidates": 94
+}
