@@ -1,0 +1,21 @@
+{
+  "thresholds": {
+    "omit_below": 0.25,
+    "keep_at": 0.6,
+    "full_size_fraction": 0.08,
+    "calibrated": false
+  },
+  "note": "Config thresholds only. Candidate precision conditional on predicted plate frame; not food recall or geometry accuracy.",
+  "omit_below": {
+    "retained": 10,
+    "candidates": 81,
+    "candidate_coverage": 0.12345679012345678,
+    "precision": 0.6
+  },
+  "keep_at": {
+    "retained": 0,
+    "candidates": 81,
+    "candidate_coverage": 0.0,
+    "precision": null
+  }
+}
