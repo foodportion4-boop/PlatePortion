@@ -1,0 +1,10 @@
+# Python 3.11, macOS Apple Silicon; torch + torchvision installed as compatible pair separately.
+numpy==2.1.3
+Pillow==11.1.0
+opencv-python==4.10.0.84
+PyYAML==6.0.2
+transformers==4.47.1
+safetensors==0.4.5
+scipy==1.14.1
+Flask==3.1.0
+pytest==8.3.4
